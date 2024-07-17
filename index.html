@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geomatry Genius</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/d5ea52083b.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <header class="text-center mt-4 text-3xl">Geomatry Genius</header>
+    <main class="w-11/12 mx-auto mt-8">
+        <section class="flex gap-4">
+            <div class="calculation w-3/4 grid grid-cols-3 gap-4">
+                <!-- Triangle Box -->
+                <div class="geomatry-box flex flex-col text-center p-5 border border-gray-200 rounded-lg">
+                    <div class="thumb h-[200px] flex justify-center items-center">
+                        <img class="block w-5/6 mx-auto" src="./images/triangle.png" alt="">
+                    </div>
+                    <div class="operation text-center my-10 flex flex-col gap-5">
+                        <h1 class="text-2xl font-semibold">Triangle</h1>
+                        <div class="flex flex-col gap-3">
+                            <div class="formula">
+                                Area (A) = 0.5
+                                <i class="fa-solid fa-xmark"></i>
+                                <span>b</span>
+                                <i class="fa-solid fa-xmark"></i>
+                                <span>h</span>
+                            </div>
+                            <div class="">
+                                b = <span>4</span>cm, h = <span>6</span>cm
+                                <button class="ml-3">
+                                    <i class="fa-regular fa-pen-to-square"></i>
+                                </button>
+                            </div>
+                            <div class="user-input w-full mx-auto flex justify-between gap-2">
+                                <div class="flex gap-4">
+                                    <div class="inline">
+                                        <button
+                                            class="bg-[#F1F1F1] py-1 px-3 rounded-tl-md rounded-bl-md">b</button><input
+                                            class="bg-[#F1F1F1] w-[50px] py-1 border-none outline-none rounded-tr-md rounded-br-md"
+                                            type="text"> cm
+                                    </div>
+                                    <div class="inline">
+                                        <button
+                                            class="bg-[#F1F1F1] py-1 px-3 rounded-tl-md rounded-bl-md">h</button><input
+                                            class="bg-[#F1F1F1] w-[50px] py-1 border-none outline-none rounded-tr-md rounded-br-md"
+                                            type="text"> cm
+                                    </div>
+                                </div>
+                                <input class="w-[20px]" type="checkbox" name="" id="">
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <button class="bg-blue-600 py-2 text-white text-md font-semibold rounded-lg text-center"
+                        type="submit" value="Calculate">Calculate</button>
+                </div>
+
+                <!-- Rectangle Box -->
+                <div class="geomatry-box flex flex-col text-center p-5 border border-gray-200 rounded-lg">
+                    <div class="thumb h-[200px] flex justify-center items-center">
+                        <img class="block w-5/6 mx-auto" src="./images/rectangle.png" alt="">
+                    </div>
+                    <div class="operation text-center my-10 flex flex-col gap-5">
+                        <h1 class="text-2xl font-semibold">Rectangle</h1>
+                        <div class="flex flex-col gap-3">
+                            <div class="formula">
+                                Area (A) =
+                                <span>w</span>
+                                <i class="fa-solid fa-xmark"></i>
+                                <span>l</span>
+                            </div>
+                            <div class="">
+                                w = <span>4</span>cm, l = <span>6</span>cm
+                                <button class="ml-3">
+                                    <i class="fa-regular fa-pen-to-square"></i>
+                                </button>
+                            </div>
+                            <div class="user-input w-full mx-auto flex justify-between gap-2">
+                                <div class="flex gap-4">
+                                    <div class="inline">
+                                        <button
+                                            class="bg-[#F1F1F1] py-1 px-3 rounded-tl-md rounded-bl-md">w</button><input
+                                            class="bg-[#F1F1F1] w-[50px] py-1 border-none outline-none rounded-tr-md rounded-br-md"
+                                            type="text"> cm
+                                    </div>
+                                    <div class="inline">
+                                        <button
+                                            class="bg-[#F1F1F1] py-1 px-3 rounded-tl-md rounded-bl-md">l</button><input
+                                            class="bg-[#F1F1F1] w-[50px] py-1 border-none outline-none rounded-tr-md rounded-br-md"
+                                            type="text"> cm
+                                    </div>
+                                </div>
+                                <input class="w-[20px]" type="checkbox" name="" id="">
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <button class="bg-blue-600 py-2 text-white text-md font-semibold rounded-lg text-center"
+                        type="submit" value="Calculate">Calculate</button>
+                </div>
+
+                <!-- Parallelogram Box -->
+                <div class="geomatry-box flex flex-col text-center p-5 border border-gray-200 rounded-lg">
+                    <div class="thumb h-[200px] flex justify-center items-center">
+                        <img class="block w-5/6 mx-auto" src="./images/parallelogram.png" alt="">
+                    </div>
+                    <div class="operation text-center my-10 flex flex-col gap-5">
+                        <h1 class="text-2xl font-semibold">Parallelogram</h1>
+                        <div class="flex flex-col gap-3">
+                            <div class="formula">
+                                Area (A) =
+                                <span>b</span>
+                                <i class="fa-solid fa-xmark"></i>
+                                <span>h</span>
+                            </div>
+                            <div class="">
+                                b = <span>4</span>cm, h = <span>6</span>cm
+                                <button class="ml-3">
+                                    <i class="fa-regular fa-pen-to-square"></i>
+                                </button>
+                            </div>
+                            <div class="user-input w-full mx-auto flex justify-between gap-2">
+                                <div class="flex gap-4">
+                                    <div class="inline">
+                                        <button
+                                            class="bg-[#F1F1F1] py-1 px-3 rounded-tl-md rounded-bl-md">b</button><input
+                                            class="bg-[#F1F1F1] w-[50px] py-1 border-none outline-none rounded-tr-md rounded-br-md"
+                                            type="text"> cm
+                                    </div>
+                                    <div class="inline">
+                                        <button
+                                            class="bg-[#F1F1F1] py-1 px-3 rounded-tl-md rounded-bl-md">h</button><input
+                                            class="bg-[#F1F1F1] w-[50px] py-1 border-none outline-none rounded-tr-md rounded-br-md"
+                                            type="text"> cm
+                                    </div>
+                                </div>
+                                <input class="w-[20px]" type="checkbox" name="" id="">
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <button class="bg-blue-600 py-2 text-white text-md font-semibold rounded-lg text-center"
+                        type="submit" value="Calculate">Calculate</button>
+                </div>
+
+
+            </div>
+            <div class="calc-result w-1/4">
+                <div class="result-box">Calculation</div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
